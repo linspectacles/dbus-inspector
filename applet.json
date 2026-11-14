@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-dbus-inspector",
+  "name": "D-Bus Inspector",
+  "version": "0.0.9",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/dbus-inspector",
+  "order": 44,
+  "entrypoint": "dbus_inspector/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Graphical read-only inspection of system/session D-Bus names, live connections, object paths, interfaces and declared methods/properties/signals, with explicit bounded property reads and no service activation or traffic monitoring.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true
+}
